@@ -1,10 +1,10 @@
 # config.yaml
 
-algorithm:
-  - type: regression
-    script: scripts.regression_script
-  - type: classification
-    script: scripts.classification_script
+model_names:
+  - linear_regression
+  - ridge_regression
 
-ensemble:
-  type: average
+hyperparameters:
+  linear_regression: 2
+  ridge_alpha: 0.5
+  random_state: 42
