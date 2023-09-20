@@ -1,0 +1,10 @@
+# config.yaml
+
+algorithm:
+  - type: regression
+    script: scripts.regression_script
+  - type: classification
+    script: scripts.classification_script
+
+ensemble:
+  type: average
