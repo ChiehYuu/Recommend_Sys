@@ -1,10 +1,12 @@
 import yaml
-from 
+from .core.reg import RegressionModelMixer
+
 
 def load_config(config_path):
     with open(config_path, 'r') as stream:
         config = yaml.safe_load(stream)
     return config
+
 
 def main():
     config = load_config('config.yaml')
@@ -18,6 +20,7 @@ def main():
     # Assuming you have some test data X_test
     result = mixer.get_ensemble_result(X_test)
     print(result)
+
 
 if __name__ == "__main__":
     main()
