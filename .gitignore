@@ -5,3 +5,6 @@ AlgoSys/Pipfile.lock
 AlgoSys/core/config.yaml
 AlgoSys/core/reg.py
 *.yaml
+Pipfile
+Pipfile.lock
+.DS_Store
