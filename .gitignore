@@ -8,3 +8,5 @@ AlgoSys/core/reg.py
 Pipfile
 Pipfile.lock
 .DS_Store
+DataSys/ana
+DataSys/tag000001.sql
